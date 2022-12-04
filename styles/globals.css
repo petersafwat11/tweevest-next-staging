@@ -1,0 +1,236 @@
+@import url("../public/fonts/fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*@import 'antd/dist/antd.css';*/
+
+@media (max-width:992px) {
+
+  h1 br,
+  h2 br,
+  h3 br,
+  h4 br,
+  h5 br,
+  h6 br,
+  p br {
+    display: none;
+  }
+}
+
+.search-input::-webkit-search-cancel-button {
+  content: '';
+  position: relative;
+  right: 0px;
+  padding-left: 10px;
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url('/svg/search-close-icon.svg');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.header-main .burger-icon-otr,
+.InstitutionnalOwnership-main .filter-btn .drop-down-ul .drop-down-a,
+.InstitutionnalOwnership-main .Show-Graph,
+.InstitutionnalOwnership-main .Show-Graph p,
+.InstitutionnalOwnership-main .Show-Graph div,
+.InstitutionnalOwnership-main .Fundamentals-boxes-otr .box-otr,
+.InstitutionnalOwnership-main .Fundamentals-boxes-otr .box-otr p,
+.InstitutionnalOwnership-main .Fundamentals-boxes-otr .box-otr .box-inr,
+.InstitutionnalOwnership-main .filter-btn,
+.InstitutionnalOwnership-main .filter-btn p,
+.InstitutionnalOwnership-main .filter-btn div {
+  transition: .3s;
+}
+
+.InstitutionnalOwnership-main .Fundamentals-boxes-otr .box-otr:nth-child(9) .box-inr,
+.InstitutionnalOwnership-main .Fundamentals-boxes-otr .box-otr:nth-child(10) .box-inr {
+  background-color: #E2F3FF;
+}
+
+.InstitutionnalOwnership-main .Return-boxes-otr .box-otr:nth-child(9) .box-inr,
+.InstitutionnalOwnership-main .Return-boxes-otr .box-otr:nth-child(10) .box-inr {
+  background-color: white;
+}
+
+.Institutionnal-chart-otr .recharts-layer .recharts-cartesian-axis-tick-line,
+.Institutionnal-chart-otr .recharts-layer .recharts-cartesian-axis-line,
+.Institutionnal-chart-otr .recharts-cartesian-grid .recharts-cartesian-grid-vertical,
+.BarChart-box-otr .earning-revenue-otr .chart-otr .recharts-legend-wrapper,
+.BarChart-box-otr .dropdown-chart-otr .recharts-legend-wrapper,
+.BarChart-box-otr .earning-revenue-otr .chart-otr .recharts-xAxis,
+.BarChart-box-otr .earning-revenue-otr .chart-otr .recharts-cartesian-axis-tick-line,
+.BarChart-box-otr .earning-revenue-otr .chart-otr .recharts-cartesian-axis-tick tspan:nth-child(2),
+.BarChart-box-otr .earning-revenue-otr .chart-otr .recharts-label-list g:nth-child(2),
+.BarChart-box-otr .dropdown-chart-otr .recharts-xAxis,
+.BarChart-box-otr .dropdown-chart-otr .recharts-cartesian-axis-tick-line,
+.BarChart-box-otr .dropdown-chart-otr .recharts-cartesian-axis-tick tspan:nth-child(2),
+.BarChart-box-otr .dropdown-chart-otr .recharts-cartesian-axis,
+.BarChart-box-otr .dropdown-chart-otr .recharts-label-list g:nth-child(2),
+.TabsComponent-main .ant-tabs-nav-operations {
+  display: none !important;
+}
+
+
+.FundamentalBox .box-inr .arrow-green,
+.FundamentalBox .box-inr .arrow-red,
+.FundamentalBox .box-inr .percent-text3 {
+  display: none;
+}
+
+
+.FundamentalBox .red-text-box .percent-text {
+  color: #EB5757;
+}
+
+.FundamentalBox .red-text-box .arrow-green,
+.FundamentalBox .red-text-box .arrow-red,
+.FundamentalBox .red-text-box .percent-text3 {
+  display: none;
+}
+
+
+
+.FundamentalBox .green-background-box {
+  background-color: #E2F3FF;
+}
+
+.FundamentalBox .green-background-box .arrow-green,
+.FundamentalBox .green-background-box .arrow-red,
+.FundamentalBox .green-background-box .percent-text3 {
+  display: none;
+}
+
+
+
+
+.FundamentalBox .red-arrow-box {
+  padding: 12px 10px;
+  background-color: transparent;
+  border: 1px solid #ECEEF1;
+}
+
+.FundamentalBox .red-arrow-box .percent-text {
+  color: #727FA4;
+  margin-bottom: 0;
+}
+
+.FundamentalBox .red-arrow-box .percent-text2,
+.FundamentalBox .red-arrow-box .percent-text3 {
+  display: none;
+}
+
+.FundamentalBox .red-arrow-box .arrow-red {
+  display: flex;
+}
+
+.FundamentalBox .red-arrow-box .arrow-green {
+  display: none;
+}
+
+
+
+
+.FundamentalBox .red-arrow-box-text {
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #ECEEF1;
+}
+
+.FundamentalBox .red-arrow-box-text .arrow-red {
+  display: flex;
+}
+
+.FundamentalBox .red-arrow-box-text .arrow-green {
+  display: none;
+}
+
+.FundamentalBox .red-arrow-box-text .arrow-red,
+.FundamentalBox .red-arrow-box-text .percent-text {
+  color: #727FA4;
+  margin-bottom: 0;
+}
+
+.FundamentalBox .red-arrow-box-text .percent-text2 {
+  display: none;
+}
+
+.FundamentalBox .red-arrow-box-text .percent-text3 {
+  display: block;
+  color: #EB5757;
+}
+
+
+.FundamentalBox .green-arrow-box-text {
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #ECEEF1;
+}
+
+.FundamentalBox .green-arrow-box-text .arrow-green {
+  display: flex;
+}
+
+.FundamentalBox .green-arrow-box-text .arrow-red {
+  display: none;
+}
+
+.FundamentalBox .green-arrow-box-text .arrow-green,
+.FundamentalBox .green-arrow-box-text .percent-text {
+  color: #727FA4;
+  margin-bottom: 0;
+}
+
+.FundamentalBox .green-arrow-box-text .percent-text2 {
+  display: none;
+}
+
+.FundamentalBox .green-arrow-box-text .percent-text3 {
+  display: block;
+  color: #55C2A3;
+}
+
+
+.FundamentalBox .green-arrow-box {
+  padding: 12px 10px !important;
+  background-color: transparent;
+  border: 1px solid #ECEEF1;
+}
+
+.FundamentalBox .green-arrow-box .arrow-green {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.FundamentalBox .green-arrow-box .arrow-red {
+  display: none;
+}
+
+.FundamentalBox .green-arrow-box .percent-text {
+  color: #727FA4;
+  margin-bottom: 0;
+}
+
+.FundamentalBox .green-arrow-box .percent-text2,
+.FundamentalBox .green-arrow-box .percent-text3 {
+  display: none;
+}
+
+@media (max-width:1279px) {
+  .TabsComponent-main .ant-tabs .ant-tabs-nav {
+    padding: 0 15px !important;
+  }
+}
+
+
+@media (max-width:1023px) {
+  .header-main .search-input::-webkit-search-cancel-button {
+    width: 20px;
+    height: 20px;
+  }
+}

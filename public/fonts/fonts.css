@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'GilmerLight';
+    src: url('./GilmerLight.eot');
+    src: url('./GilmerLight.eot?#iefix') format('embedded-opentype'),
+        url('./GilmerLight.woff2') format('woff2'),
+        url('./GilmerLight.woff') format('woff'),
+        url('./GilmerLight.ttf') format('truetype'),
+        url('./GilmerLight.svg#GilmerLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilmerHeavy';
+    src: url('./GilmerHeavy.eot');
+    src: url('./GilmerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('./GilmerHeavy.woff2') format('woff2'),
+        url('./GilmerHeavy.woff') format('woff'),
+        url('./GilmerHeavy.ttf') format('truetype'),
+        url('./GilmerHeavy.svg#GilmerHeavy') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilmerBold';
+    src: url('./GilmerBold.eot');
+    src: url('./GilmerBold.eot?#iefix') format('embedded-opentype'),
+        url('./GilmerBold.woff2') format('woff2'),
+        url('./GilmerBold.woff') format('woff'),
+        url('./GilmerBold.ttf') format('truetype'),
+        url('./GilmerBold.svg#GilmerBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilmerMedium';
+    src: url('./GilmerMedium.eot');
+    src: url('./GilmerMedium.eot?#iefix') format('embedded-opentype'),
+        url('./GilmerMedium.woff2') format('woff2'),
+        url('./GilmerMedium.woff') format('woff'),
+        url('./GilmerMedium.ttf') format('truetype'),
+        url('./GilmerMedium.svg#GilmerMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilmerRegular';
+    src: url('./GilmerRegular.eot');
+    src: url('./GilmerRegular.eot?#iefix') format('embedded-opentype'),
+        url('./GilmerRegular.woff2') format('woff2'),
+        url('./GilmerRegular.woff') format('woff'),
+        url('./GilmerRegular.ttf') format('truetype'),
+        url('./GilmerRegular.svg#GilmerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
