@@ -6,7 +6,6 @@ import timezone from "dayjs/plugin/timezone";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 import { ApiService } from "../../../utils";
 import React, { useState } from "react";
-import ArrowGreen from '/public/svg/arrow-green.svg'
 dayjs.extend(utc);
 dayjs.extend(timezone);
 dayjs.extend(advancedFormat);
